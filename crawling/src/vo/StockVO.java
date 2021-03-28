@@ -1,7 +1,11 @@
 package vo;
 
+import lombok.Builder;
+import lombok.Getter;
 
-public class stockVO {
+@Getter
+@Builder
+public class StockVO {
 	private String ranking;
 	private String name;
 	private String searchRate;
